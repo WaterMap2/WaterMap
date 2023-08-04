@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Wa+er Map</title>
+
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/map.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+
+</head>
+
+<body class="Body">
+
+    <p class="Title">WA+ER MAP</p>
+    <p class="SubTitle">WDN(Water Distribution Network) Analysis+Efficiency in Real-time MAP</p>
+    <div class="timer">
+        <p id="date"></p>
+        <p>@</p>
+        <p id="time"></p>
+    </div>
+    <div class="buttonRow1">
+        <button class="LocDistributor" onclick="findDistLocation()">Show Distributor Location</button>
+        <button class="LocHouse" onclick="findUserLocation()">Show My Location</button>
+    </div>
+    <div class="buttonRow2">
+        <button class="DirtyHigh" onclick="dirtyHigh()">Murky and High Flow Rate</button>
+        <button class="DirtyLow" onclick="dirtyLow()">Murky and Low Flow Rate</button>
+    </div>
+    <div class="buttonRow3">
+        <button class="CleanHigh" onclick="cleanHigh()">Clear and High Flow Rate</button>
+        <button class="CleanLow" onclick="cleanLow()">Clear and Low Flow Rate</button>
+    </div>
+    <div class="buttonRow4">
+        <button class="Normal" onclick="normal()">Normal</button>
+        <button class="Burst" onclick="burst()"> Burst Pipe </button>
+    </div>
+    <div class="buttonRow5">
+        <button class="SAVE" onclick="SAVE()">SAVE</button>
+    </div>
+    <div class="loader"></div>
+
+    <div class="mapContainer">
+        <div id="map"></div>
+    </div>
+
+    <div class="footer">
+        <p>All Rights Reserved</p>
+    </div>
+    <div>
+        <p>ARCILLA</p>
+        <p>BITON</p>
+        <p>CELIS</p>
+        <p>VALENZUELA</p>
+        <p>BSCE 3A</p>
+    </div>
+
+</body>
+<script src="/Maps/map.js"></script>
+<script src="/Maps/buttons/buttons.js"></script>
+
+</html>

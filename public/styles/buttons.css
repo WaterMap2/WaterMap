@@ -1,0 +1,301 @@
+    .buttonRow1,
+    .buttonRow2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .buttonRow3,
+    .buttonRow4 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100px;
+        justify-content: center;
+    }
+    .buttonRow5  {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .LocDistributor {
+        flex: 1;
+        background-image: url("../Images/DistLoc.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .LocDistributor:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, white);
+        border-color: rgb(84, 197, 241);
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .LocDistributor:active {
+        color: rgb(84, 197, 241);
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .LocHouse {
+        flex: 1;
+        background-image: url("../Images/MyLoc.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .LocHouse:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, white);
+        border-color: aqua;
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .LocHouse:active {
+        color: aqua;
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .DirtyHigh {
+        flex: 1;
+        background-image: url("../Images/MurkyHigh.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .DirtyHigh:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, white);
+        border-color: yellow;
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .DirtyHigh:active {
+        color: yellow;
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .DirtyLow {
+        flex: 1;
+        background-image: url("../Images/MurkyLow.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .DirtyLow:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, white);
+        border-color: orange;
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .DirtyLow:active {
+        color: orange;
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .CleanHigh {
+        flex: 1;
+        background-image: url("../Images/ClearHIgh.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .CleanHigh:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, white);
+        border-color: lightblue;
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .CleanHigh:active {
+        color: lightblue;
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .CleanLow {
+        flex: 1;
+        background-image: url("../Images/ClearLOw.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .CleanLow:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, white);
+        border-color: violet;
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .CleanLow:active {
+        color: violet;
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .Normal {
+        flex: 1;
+        background-image: url("../Images/Normal.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .Normal:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, white);
+        border-color: greenyellow;
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .Normal:active {
+        color: greenyellow;
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .Burst {
+        flex: 1;
+        background-image: url("../Images/Burst.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        font-size: 18px;
+        max-width: 700px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .Burst:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, rgba(255, 255, 255, 0.288));
+        border-color: red;
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .Burst:active {
+        color: red;
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
+
+    .SAVE {
+        flex: 1;
+        background-image: url("../Images/SAVE.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        border-color: white;
+        margin-bottom: 20px;
+        font-size: 18px;
+        max-width: 200px;
+        font-weight: bold;
+        font-family: Arial;
+        color: rgba(59, 59, 59, 0);
+        cursor: pointer;
+    }
+
+    .SAVE:hover {
+        color: rgb(100, 100, 100);
+        background-image: linear-gradient(white, rgba(255, 255, 255, 0.288));
+        border-color: rgb(138, 136, 130);
+        border-width: 6px;
+        height: 90px;
+        transition: 0.15s;
+    }
+
+    .SAVE:active {
+        color:  rgb(138, 136, 130);
+        cursor: url("../Images/waterdrop.png"), auto;
+        transition: 0.15s;
+    }
